@@ -1,0 +1,180 @@
+body{
+  overflow-x: hidden;
+}
+.token:hover{
+  color: rgb(217, 139, 38);
+}
+.nav-color{
+  padding-top: 85px;
+  
+
+  background-color: rgb(31, 30, 41);
+}
+.hero-moon{
+  margin-top: -80px;
+  margin-right: -200px;
+}
+.hero-img{
+  margin-top: -410px;
+  height: 65%;
+  padding-left: 50px;
+}
+.eco{
+  background-color: rgb(28, 27, 36);
+  padding: 120px 0px;
+}
+#small-card>.horse>.card-body>.horseChange{
+  background: url("../public/assets/ico-uni.svg");
+  width: 100px;
+}
+#small-card>.card-body{
+  border-radius: 10%;
+  background-color: rgb(24, 23, 31);
+  box-shadow: 4px 4px 4px black;
+}
+#small-card>.card-body:hover{
+  box-shadow: none;
+  transition: 0.5s;
+}
+.horse{
+  background-image: url("../public/assets/ico-uni.svg");
+  background-size: cover;
+}
+#small-card>.card-body>.horse:hover{
+  background: url("../public/assets//ico-uni-col.svg");
+  background-size: cover;
+}
+.coinCard{
+  background-color: rgb(31, 30, 41);
+  padding: 120px 0px;
+}
+.coin-top{
+  padding: 10%;
+  background-image: linear-gradient(rgb(25, 25, 33),rgb(34, 34, 43),rgb(31, 30, 41));
+}
+.coin-body{
+  height: auto  ;
+  background-color: rgb(24, 23, 31);
+}
+.htb{
+  background-color: rgb(28, 27, 36);
+  padding: 120px 0px;
+}
+.htb-guid{
+    background-color: rgb(24, 23, 31);
+    border-radius: 3%;
+}
+.badge{
+  background-color: rgb(31, 30, 41);
+}
+.shibaSwap{
+background-color: rgb(31, 30, 41);
+}
+.certik{
+  background-color:rgb(24, 23, 31) ;
+  border-radius: 5%;
+}
+.art{
+  padding: 100px;
+  background-color: rgb(28, 27, 36);
+}
+p{
+  font-size: 18px;
+}
+.btn-fill:hover{
+  color: red;
+}
+.btn-fill:hover:after{
+  left: 0%;
+  width: 100%;
+}
+.btn-fill:active{
+  top: 2px;
+}
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all .35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -240px;
+  background:red;
+  position: absolute;
+  transition: all .65s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #2D3142;
+}
+
+
+
+.rescue{
+  background-image: linear-gradient(orange,rgb(240, 104, 0));
+  transition: 2s;
+}
+.rescue:hover{
+  background-image: linear-gradient(rgb(240, 5, 0),rgb(240, 5, 0));
+}
+.community{
+  background-color: rgb(24, 24, 28);
+  padding: 100px 0px;
+}
+.social{
+  background-color: rgb(28, 27, 36);
+}
+.ss-back{
+  /* background: url("assets/ss-glow.svg"); */
+}
+.c1{
+  margin-top: 35%;
+  margin-bottom: -42%;
+  margin-left: 48%;
+  
+}
+.leash{
+  margin-left: 45%;
+  margin-top: 40%;
+  margin-bottom: -14%;
+}
+.bone{
+  margin-top: -60%;
+  /* margin-left:-80%; */
+}
+.shiba{
+  margin-top: -90%;
+  margin-left: 110%;
+}
+.bc1{
+  margin-right: 0%;
+  
+}
+.bc2{
+  margin-left: 0%;
+  /* margin-bottom: -40%; */
+}
+.blur-animated{
+/* margin-left: 50%; */
+}
+.animated{
+animation: animated 20s    infinite;
+margin-top: -70%;
+margin-left: 30%;
+
+}
+@keyframes animated {
+  100%{transform: rotate(360deg);}
+}
